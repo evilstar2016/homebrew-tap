@@ -1,6 +1,6 @@
 cask "openlightcapture" do
-  version "1.0.0"
-  sha256 "202a5a5d2cfb2ff0a2d10ca1b2ff4011aa2a7adf3921fe56dff650464a45818c"
+  version "1.1.0"
+  sha256 "da6d00635d6bc7615bcefdba5ec144e4551e12eae9d4ac4d34649fdd1bd81140"
 
   url "https://github.com/evilstar2016/OpenLightCapture/releases/download/v#{version}/OpenLightCapture-#{version}-macOS-universal.dmg"
   name "OpenLightCapture"
@@ -12,7 +12,7 @@ cask "openlightcapture" do
     strategy :github_latest
   end
 
-  depends_on macos: :sonoma
+  depends_on macos: :ventura
 
   app "OpenLightCapture.app"
 

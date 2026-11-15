@@ -1,6 +1,6 @@
 cask "openlightcapture" do
-  version "1.1.0"
-  sha256 "da6d00635d6bc7615bcefdba5ec144e4551e12eae9d4ac4d34649fdd1bd81140"
+  version "1.2.0"
+  sha256 "bbece49fac12037502725b0ca0c34fafce68b3abd84b33ef0edf0c28dfbb50b7"
 
   url "https://github.com/evilstar2016/OpenLightCapture/releases/download/v#{version}/OpenLightCapture-#{version}-macOS-universal.dmg"
   name "OpenLightCapture"
